@@ -14,7 +14,7 @@
     "package": "luci-app-passwall2",
     "description": "Powerful proxy tool.",
     "version": "25.4.11-r1",
-    "avatar": "https://raw.githubusercontent.com/NuhaHumaira/doty_store/main/app/passwall2/passwall.jpg",
+    "avatar": "https://raw.githubusercontent.com/NuhaHumaira/doty_store/main/app/passwall/passwall.jpg",
     "url": "https://raw.githubusercontent.com/NuhaHumaira/doty_store/main/app/passwall2/luci-app-passwall2_25.4.11-r1_all.ipk"
   },
   {
