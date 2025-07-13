@@ -1,0 +1,9 @@
+{
+  "id": "adblocker",
+  "name": "Ad Blocker",
+  "package": "luci-app-adblock",
+  "description": "Blocks ads.",
+  "version": "1.0.2",
+  "avatar": "https://your-github.com/icon.png",
+  "url": "https://your-github.com/download.ipk"
+}
