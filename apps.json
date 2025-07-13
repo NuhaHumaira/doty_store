@@ -14,7 +14,7 @@
     "package": "speedtest-cli",
     "description": "Run speed test from terminal.",
     "version": "1.0.1",
-    "avatar": "https://raw.githubusercontent.com/NuhaHumaira/doty_store/main/app/speedtest/speedtest.png",
+    "avatar": "https://raw.githubusercontent.com/NuhaHumaira/doty_store/refs/heads/main/st.png",
     "url": "https://raw.githubusercontent.com/NuhaHumaira/doty_store/main/app/speedtest/speedtest-cli_1.0.1_all.ipk"
   },
   {
@@ -23,7 +23,7 @@
     "package": "luci-app-adblock",
     "description": "Block ads at DNS level.",
     "version": "4.1.2",
-    "avatar": "https://raw.githubusercontent.com/NuhaHumaira/doty_store/main/app/adblock/adblock.png",
+    "avatar": "https://raw.githubusercontent.com/NuhaHumaira/doty_store/refs/heads/main/ab.png",
     "url": "https://raw.githubusercontent.com/NuhaHumaira/doty_store/main/app/adblock/luci-app-adblock_4.1.2_all.ipk"
   }
 ]
