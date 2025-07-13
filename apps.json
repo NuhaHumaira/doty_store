@@ -1,5 +1,14 @@
 [
   {
+    "id": "passwall",
+    "name": "Passwall",
+    "package": "luci-app-passwall",
+    "description": "Powerful proxy tool.",
+    "version": "25.6.28-r1 4.66-8",
+    "avatar": "https://raw.githubusercontent.com/NuhaHumaira/doty_store/main/app/passwall2/passwall2.webp",
+    "url": "https://raw.githubusercontent.com/NuhaHumaira/doty_store/main/app/passwall2/luci-app-passwall2_25.4.11-r1_all.ipk"
+  },
+  {
     "id": "passwall2",
     "name": "Passwall2",
     "package": "luci-app-passwall2",
