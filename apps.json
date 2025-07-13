@@ -22,7 +22,7 @@
     "name": "OpenClash",
     "package": "luci-app-openclash",
     "description": "Run speed test from terminal.",
-    "version": "1.0.1",
+    "version": "0.46.120",
     "avatar": "https://raw.githubusercontent.com/NuhaHumaira/doty_store/main/app/openclash/openclash.png",
     "url": "https://raw.githubusercontent.com/NuhaHumaira/doty_store/main/app/openclash/luci-app-openclash_0.46.120_all.ipk"
   },
@@ -31,7 +31,7 @@
     "name": "TTL Settings",
     "package": "luci-app-nft-ttl",
     "description": "Block ads at DNS level.",
-    "version": "4.1.2",
+    "version": "1.0-r1",
     "avatar": "https://raw.githubusercontent.com/NuhaHumaira/doty_store/main/app/ttl/ttl.png",
     "url": "https://raw.githubusercontent.com/NuhaHumaira/doty_store/main/app/ttl/luci-app-nft-ttl_1.0-r1_all.ipk"
   }
