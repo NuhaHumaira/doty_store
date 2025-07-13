@@ -34,5 +34,14 @@
     "version": "1.0-r1",
     "avatar": "https://raw.githubusercontent.com/NuhaHumaira/doty_store/main/app/ttl/ttl.png",
     "url": "https://raw.githubusercontent.com/NuhaHumaira/doty_store/main/app/ttl/luci-app-nft-ttl_1.0-r1_all.ipk"
+  },
+    {
+    "id": "dstore",
+    "name": "DStore",
+    "package": "luci-app-dstore",
+    "description": "Openwrt App Store",
+    "version": "1.0-r1",
+    "avatar": "https://raw.githubusercontent.com/NuhaHumaira/doty_store/main/app/dstore/dstore.jpeg",
+    "url": "https://raw.githubusercontent.com/NuhaHumaira/doty_store/main/app/dstore/luci-app-dstore-v1.0-r1.ipk"
   }
 ]
