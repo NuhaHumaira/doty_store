@@ -1,9 +1,9 @@
 {
-  "id": "adblocker",
-  "name": "Ad Blocker",
-  "package": "luci-app-adblock",
-  "description": "Blocks ads.",
-  "version": "1.0.2",
+  "id": "passwall2",
+  "name": "Passwall2",
+  "package": "luci-app-passwall2",
+  "description": "Passwall2 ",
+  "version": "25.4.11-r1",
   "avatar": "https://your-github.com/icon.png",
   "url": "https://your-github.com/download.ipk"
 }
