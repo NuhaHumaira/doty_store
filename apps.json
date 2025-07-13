@@ -3,9 +3,27 @@
     "id": "passwall2",
     "name": "Passwall2",
     "package": "luci-app-passwall2",
-    "description": "Passwall2",
+    "description": "Powerful proxy tool.",
     "version": "25.4.11-r1",
     "avatar": "https://raw.githubusercontent.com/NuhaHumaira/doty_store/main/app/passwall2/passwall2.webp",
     "url": "https://raw.githubusercontent.com/NuhaHumaira/doty_store/main/app/passwall2/luci-app-passwall2_25.4.11-r1_all.ipk"
+  },
+  {
+    "id": "speedtest",
+    "name": "SpeedTest CLI",
+    "package": "speedtest-cli",
+    "description": "Run speed test from terminal.",
+    "version": "1.0.1",
+    "avatar": "https://raw.githubusercontent.com/NuhaHumaira/doty_store/main/app/speedtest/speedtest.png",
+    "url": "https://raw.githubusercontent.com/NuhaHumaira/doty_store/main/app/speedtest/speedtest-cli_1.0.1_all.ipk"
+  },
+  {
+    "id": "adblock",
+    "name": "AdBlocker",
+    "package": "luci-app-adblock",
+    "description": "Block ads at DNS level.",
+    "version": "4.1.2",
+    "avatar": "https://raw.githubusercontent.com/NuhaHumaira/doty_store/main/app/adblock/adblock.png",
+    "url": "https://raw.githubusercontent.com/NuhaHumaira/doty_store/main/app/adblock/luci-app-adblock_4.1.2_all.ipk"
   }
 ]
