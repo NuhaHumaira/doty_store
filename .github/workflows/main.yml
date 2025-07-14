@@ -40,15 +40,15 @@ jobs:
             fi
 
             cat <<EOF >> store.json
-  {
-    "id": "$id",
-    "name": "$name",
-    "package": "$package",
-    "version": "$version",
-    "avatar": "$avatar_url",
-    "url": "$ipk_url"
-  }
-EOF
+            {
+              "id": "$id",
+              "name": "$name",
+              "package": "$package",
+              "version": "$version",
+              "avatar": "$avatar_url",
+              "url": "$ipk_url"
+           }
+           EOF
           done
 
           echo "]" >> store.json
