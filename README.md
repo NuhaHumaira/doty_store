@@ -1,7 +1,6 @@
 ## DSTORE V1.0 - OPENWRT APPT STORE
 
-<pre><code>
-How to use DStore
+### How to use DStore
 
 1. First, fork this repository: https://github.com/dotywrt/doty_store
 2. Navigate to the `app/` directory and create a folder for your app, e.g., `passwall/` or `passwall2/`
@@ -11,6 +10,6 @@ How to use DStore
 6. Go to the **Actions** tab in GitHub and run the workflow to automatically generate `store.json`.
 7. After `store.json` is generated, copy the URL to the file.
 8. On your OpenWRT device, go to **DStore > Settings**, paste the URL, save, and update.
-</code></pre>
+
 
 ### BY DOTYCAT @ www.dotycat.com @ t.me/dotycat
