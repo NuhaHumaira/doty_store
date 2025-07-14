@@ -1,4 +1,4 @@
-name: Generate store.json
+name: Generate apps.json
 
 on:
   push:
@@ -11,23 +11,23 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write  # ⬅️ Required to allow pushing changes
+      contents: write
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Run store.json generator script
+      - name: Run apps.json generator script
         run: |
           chmod +x path_01.sh
           ./path_01.sh
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
 
-      - name: Commit and push store.json
+      - name: Commit and push apps.json
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add store.json
-          git diff --cached --quiet || git commit -m "Auto-generate store.json"
+          git add apps.json
+          git diff --cached --quiet || git commit -m "Auto-generate apps.json"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
