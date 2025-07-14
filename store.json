@@ -2,8 +2,8 @@
 {
   "id": "dstore",
   "name": "Dstore",
-  "package": "luci-app-dstore-v1.0",
-  "version": "vr1",
+  "package": "luci-app-dstore",
+  "version": "v1.0-r1",
   "avatar": "https://raw.githubusercontent.com/NuhaHumaira/doty_store/main/app/dstore/dstore.jpeg",
   "url": "https://raw.githubusercontent.com/NuhaHumaira/doty_store/main/app/dstore/luci-app-dstore-v1.0-r1.ipk"
 }
