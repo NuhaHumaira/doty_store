@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "[" > store.json
+echo "[" > apps.json
 first=true
 
 for dir in app/*/; do
@@ -35,10 +35,10 @@ for dir in app/*/; do
   if [ "$first" = true ]; then
     first=false
   else
-    echo "," >> store.json
+    echo "," >> apps.json
   fi
 
-  cat <<EOF >> store.json
+  cat <<EOF >> apps.json
 {
   "id": "$id",
   "name": "$name",
@@ -51,4 +51,4 @@ EOF
 
 done
 
-echo "]" >> store.json
+echo "]" >> apps.json
