@@ -12,18 +12,19 @@ for dir in app/*/; do
   [ -z "$ipk_file" ] && continue
 
   filename=$(basename "$ipk_file")
+  base_name="${filename%.ipk}"
 
-  # Parse package and version
-  if [[ "$filename" == *_*_* ]]; then
-    package=$(echo "$filename" | cut -d_ -f1)
-    version=$(echo "$filename" | cut -d_ -f2)
+  # Detect if underscore format (pkg_version_arch)
+  if [[ "$base_name" == *_*_* ]]; then
+    package=$(echo "$base_name" | cut -d_ -f1)
+    version=$(echo "$base_name" | cut -d_ -f2)
   else
-    base=$(basename "$filename" .ipk)
-    package=$(echo "$base" | sed -E 's/(.*)-[^-]+$/\1/')
-    version=$(echo "$base" | sed -E 's/.*-([^-]+)$/\1/')
+    # Assume format: name-v1.0-r1 (hyphen-based)
+    package=$(echo "$base_name" | sed -E 's/(.*)-v?[0-9].*/\1/')
+    version=$(echo "$base_name" | sed -E 's/.*-v?([0-9].*)/\1/')
   fi
 
-  # Add "v" prefix to version if missing
+  # Add 'v' to version if not present
   if [[ ! "$version" =~ ^v ]]; then
     version="v$version"
   fi
